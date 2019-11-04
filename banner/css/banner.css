@@ -1,1 +1,319 @@
-#banner{width:1190px;margin:0 auto;background:#f4f4f4;position:relative}#banner .le{height:470px;width:190px;float:left;background:#fff}#banner .le ul{height:470px;padding-top:10px}#banner .le ul li{font-size:12px;color:#000;line-height:25px;padding-left:18px}#banner .le ul li a:hover{color:red}#banner .le ul li:hover{background:#ddd}#banner .le .hover{width:1000px;box-sizing:border-box;position:absolute;left:190px;top:0;z-index:100;background:#fff;padding:20px 16px 0 20px;overflow:hidden;border:1px solid #d1d1d1;display:none}#banner .le .hover .hovernow .hoverleft{float:left}#banner .le .hover .hovernow .hoverleft div a{display:inline-block;margin-right:10px;padding:0 10px;height:25px;line-height:25px;color:#fff;text-align:center;background:#000}#banner .le .hover .hovernow .hoverleft div a:hover{background:#c81623;color:#fff}#banner .le .hover .hovernow .hoverleft ul{height:auto}#banner .le .hover .hovernow .hoverleft ul li{padding:0;margin-top:20px}#banner .le .hover .hovernow .hoverleft ul li span{margin-right:10px;font-weight:bold}#banner .le .hover .hovernow .hoverleft ul li span:hover{color:#c81623}#banner .le .hover .hovernow .hoverleft ul li:hover{background:#fff}#banner .le .hover .hovernow .hoverleft ul a{margin-right:15px}#banner .le .hover .hovernow .hoverleft a:hover{color:red}#banner .le .hover .hovernow .hoverright{float:right;width:167px}#banner .le .hover .hovernow .hoverright .top{width:100%;display:flex;flex-wrap:wrap;justify-content:space-between}#banner .le .hover .hovernow .hoverright .top img{margin-bottom:1px}#banner .le .hover .hovernow .hoverright .bottom{margin-top:11px;margin-bottom:25px}#banner .le .hover .hovernow .hoverright .bottom img{margin-bottom:1px}#banner .con{margin-left:10px;height:470px;width:590px;float:left;position:relative}#banner .con .img{position:relative}#banner .con .img img{position:absolute;top:0;left:0;width:590px;height:470px;display:none}#banner .con .img .active{display:block}#banner .con ul{position:absolute;bottom:30px;left:50px;overflow:hidden;opacity:0.5}#banner .con ul li{float:left;width:15px;height:15px;border-radius:50%;background:#eee;margin:0 5px}#banner .con ul .show{background:red}
+#box {
+  height: 470px;
+  background: #f4f4f4;
+}
+#box #banner {
+  width: 1190px;
+  margin: 0 auto;
+  background: #f4f4f4;
+  position: relative;
+}
+#box #banner .le {
+  height: 470px;
+  width: 190px;
+  float: left;
+  background: #fff;
+}
+#box #banner .le ul {
+  height: 470px;
+  padding-top: 10px;
+  position: relative;
+}
+#box #banner .le ul li {
+  font-size: 12px;
+  color: #000;
+  line-height: 25px;
+  padding-left: 18px;
+}
+#box #banner .le ul li a:hover {
+  color: red;
+}
+#box #banner .le ul li .hover {
+  width: 1000px;
+  box-sizing: border-box;
+  position: absolute;
+  left: 190px;
+  top: 0px;
+  z-index: 100;
+  background: #fff;
+  padding: 20px 16px 0 20px;
+  overflow: hidden;
+  border: 1px solid #d1d1d1;
+  display: none;
+}
+#box #banner .le ul li .hover .hovernow .hoverleft {
+  float: left;
+}
+#box #banner .le ul li .hover .hovernow .hoverleft div a {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 0 10px;
+  height: 25px;
+  line-height: 25px;
+  color: #fff;
+  text-align: center;
+  background: #000;
+}
+#box #banner .le ul li .hover .hovernow .hoverleft div a:hover {
+  background: #c81623;
+  color: #fff;
+}
+#box #banner .le ul li .hover .hovernow .hoverleft ul {
+  height: auto;
+}
+#box #banner .le ul li .hover .hovernow .hoverleft ul li {
+  padding: 0;
+  margin-top: 20px;
+}
+#box #banner .le ul li .hover .hovernow .hoverleft ul li span {
+  margin-right: 10px;
+  font-weight: bold;
+}
+#box #banner .le ul li .hover .hovernow .hoverleft ul li span:hover {
+  color: #c81623;
+}
+#box #banner .le ul li .hover .hovernow .hoverleft ul li:hover {
+  background: #fff;
+}
+#box #banner .le ul li .hover .hovernow .hoverleft ul a {
+  margin-right: 15px;
+}
+#box #banner .le ul li .hover .hovernow .hoverleft a:hover {
+  color: red;
+}
+#box #banner .le ul li .hover .hovernow .hoverright {
+  float: right;
+  width: 167px;
+}
+#box #banner .le ul li .hover .hovernow .hoverright .top {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#box #banner .le ul li .hover .hovernow .hoverright .top img {
+  margin-bottom: 1px;
+}
+#box #banner .le ul li .hover .hovernow .hoverright .bottom {
+  margin-top: 11px;
+  margin-bottom: 25px;
+}
+#box #banner .le ul li .hover .hovernow .hoverright .bottom img {
+  margin-bottom: 1px;
+}
+#box #banner .le ul li:hover {
+  background: #ddd;
+}
+#box #banner .le ul li:hover .hover {
+  display: block;
+}
+#box #banner .con {
+  margin-left: 10px;
+  height: 470px;
+  width: 590px;
+  float: left;
+  position: relative;
+}
+#box #banner .con span {
+  position: absolute;
+  height: 36px;
+  width: 26px;
+  text-align: center;
+  line-height: 36px;
+  background: #000;
+  opacity: 0.4;
+  top: 216px;
+  color: #fff;
+  font-size: 16px;
+  display: none;
+}
+#box #banner .con .left {
+  left: 0;
+  border-radius: 0 18px 18px 0;
+}
+#box #banner .con .right {
+  right: 0;
+  border-radius: 18px 0 0 18px;
+}
+#box #banner .con .img {
+  position: relative;
+}
+#box #banner .con .img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 590px;
+  height: 470px;
+  display: none;
+}
+#box #banner .con .img .active {
+  display: block;
+}
+#box #banner .con ul {
+  position: absolute;
+  bottom: 30px;
+  left: 50px;
+  overflow: hidden;
+  opacity: 0.5;
+}
+#box #banner .con ul li {
+  float: left;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #eee;
+  margin: 0 5px;
+}
+#box #banner .con ul .show {
+  background: red;
+}
+#box #banner .ri {
+  width: 190px;
+  margin-left: 10px;
+  height: 470px;
+  float: left;
+  position: relative;
+}
+#box #banner .ri span {
+  position: absolute;
+  height: 36px;
+  width: 26px;
+  text-align: center;
+  line-height: 36px;
+  background: #000;
+  opacity: 0.4;
+  top: 216px;
+  color: #fff;
+  font-size: 16px;
+  display: none;
+}
+#box #banner .ri .left1 {
+  left: 0;
+  border-radius: 0 18px 18px 0;
+}
+#box #banner .ri .right1 {
+  right: 0;
+  border-radius: 18px 0 0 18px;
+}
+#box #banner .ri .imgbox {
+  display: flex;
+  height: 470px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
+  display: none;
+}
+#box #banner .ri .showwing {
+  display: flex;
+}
+#box #banner .end {
+  height: 470px;
+  width: 190px;
+  float: left;
+  margin-left: 10px;
+  background: #fefefe;
+  box-sizing: border-box;
+}
+#box #banner .end .top1 {
+  padding: 8px 20px 0;
+  width: 190px;
+  height: 102px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #eee;
+}
+#box #banner .end .top1 .ttop {
+  margin-bottom: 8px;
+}
+#box #banner .end .top1 .ttop .div1 {
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background: url("./../img/dog.jpg") center center no-repeat;
+  float: left;
+}
+#box #banner .end .top1 .ttop .div2 {
+  float: left;
+  margin-left: 5px;
+}
+#box #banner .end .top1 .ttop .div2 p {
+  line-height: 26px;
+  font-size: 12px;
+  color: #666;
+}
+#box #banner .end .top1 .ttop .div2 p:hover {
+  color: red;
+}
+#box #banner .end .top1 .ttop .div2 span {
+  font-size: 12px;
+  color: #666;
+}
+#box #banner .end .top1 .ttop .div2 span:hover {
+  color: red;
+}
+#box #banner .end .top1 .tbot {
+  display: flex;
+  justify-content: space-between;
+}
+#box #banner .end .top1 .tbot span {
+  height: 25px;
+  font-size: 12px;
+  width: 70px;
+  text-align: center;
+  border-radius: 12.5px;
+  line-height: 25px;
+}
+#box #banner .end .top1 .tbot .tl {
+  color: #fff;
+  background: #e1251b;
+}
+#box #banner .end .top1 .tbot .tr {
+  background: #363634;
+  color: #e5d790;
+}
+#box #banner .end .top1 .tbot .tr:hover {
+  background: #a91008;
+  color: #fff;
+}
+#box #banner .end .top2 {
+  padding-left: 14px;
+  padding-right: 18px;
+  box-sizing: 131px;
+  border-bottom: 1px solid #eee;
+}
+#box #banner .end .top2 .t2 {
+  line-height: 38px;
+  overflow: hidden;
+  display: block;
+}
+#box #banner .end .top2 .t2 strong {
+  font-size: 14px;
+  color: #000;
+  float: left;
+}
+#box #banner .end .top2 .t2 span {
+  float: right;
+  color: #d1d1d1;
+}
+#box #banner .end .top2 .t2 span:hover {
+  color: red;
+}
+#box #banner .end .top2 ul li {
+  margin-bottom: 6px;
+  line-height: 16px;
+  overflow: hidden;
+}
+#box #banner .end .top2 ul li i {
+  width: 35px;
+  display: inline-block;
+  background: #fdeeed;
+  color: red;
+}
+#box #banner .end .top2 ul li span {
+  margin-left: 6px;
+  font-size: 11px;
+  color: #666;
+}
+#box #banner .end .top2 ul li span:hover {
+  color: red;
+}
