@@ -55,11 +55,12 @@ $(function(){
     $('#banner .le ul li').mouseover(function(){
         $('#banner .le .hover').css({display:'block'})
     })
-    $('#banner .le ul li').mouseout(function(){
-        $('#banner .le .hover').css({display:'none'})
-    })
-    $('#banner .le .hover').mouseout(function(){
-        $('#banner .le .hover').css({display:'none'})
-    })
+    // $('#banner .le ul li').mouseout(function(){
+    //     $('#banner .le .hover').css({display:'none'})
+    // })
+    // $('#banner .le .hover').mouseout(function(){
+    //     $('#banner .le .hover').css({display:'none'})
+    // })
+    
     
 })
