@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+#banner {
+    width: 1190px;
+    margin: 0 auto;
+    // overflow: hidden;
+    background: #f4f4f4;
+    position: relative;
+
+    .le {
+        height: 470px;
+        width: 190px;
+        float: left;
+        background: #fff;
+
+        ul {
+            height: 470px;
+            padding-top: 10px;
+
+            li {
+                font-size: 12px;
+                color: #000;
+                line-height: 25px;
+                padding-left: 18px;
+
+                a:hover {
+                    color: red;
+                }
+            }
+
+            li:hover {
+                background: #ddd;
+            }
+        }
+
+        .hover {
+            width: 1000px;
+            box-sizing: border-box;
+            position: absolute;
+            left: 190px;
+            top: 0;
+            z-index: 100;
+            background: #fff;
+            padding: 20px 16px 0 20px;
+            overflow: hidden;
+            border: 1px solid #d1d1d1;
+            display: none;
+
+            .hovernow {
+
+                .hoverleft {
+                    float: left;
+
+                    div {
+                        a {
+                            display: inline-block;
+                            margin-right: 10px;
+                            padding: 0 10px;
+                            height: 25px;
+                            line-height: 25px;
+                            color: #fff;
+                            text-align: center;
+                            background: #000;
+                        }
+
+                        a:hover {
+                            background: #c81623;
+                            color: #fff;
+                        }
+
+                    }
+
+                    ul {
+                        height: auto;
+
+                        li {
+                            padding: 0;
+                            margin-top: 20px;
+
+                            span {
+                                margin-right: 10px;
+                                font-weight: bold;
+                            }
+
+                            span:hover {
+                                color: #c81623;
+                            }
+                        }
+
+                        li:hover {
+                            background: #fff;
+                        }
+
+                        a {
+                            margin-right: 15px;
+                        }
+                    }
+
+
+                    a:hover {
+                        color: red;
+                    }
+                }
+
+                .hoverright {
+                    float: right;
+                    width: 167px;
+
+                    .top {
+                        width: 100%;
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+
+                        img {
+                            margin-bottom: 1px;
+                        }
+                    }
+
+                    .bottom {
+                        margin-top: 11px;
+                        margin-bottom: 25px;
+
+                        img {
+                            margin-bottom: 1px;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+
+    .con {
+        margin-left: 10px;
+        height: 470px;
+        width: 590px;
+        float: left;
+        position: relative;
+
+        .img {
+            position: relative;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 590px;
+                height: 470px;
+                display: none;
+            }
+
+            .active {
+                display: block;
+            }
+        }
+
+        ul {
+            position: absolute;
+            bottom: 30px;
+            left: 50px;
+            overflow: hidden;
+            opacity: 0.5;
+
+            li {
+                float: left;
+                width: 15px;
+                height: 15px;
+                border-radius: 50%;
+                background: #eee;
+                margin: 0 5px;
+            }
+
+            .show {
+                background: red;
+            }
+        }
+    }
+}
