@@ -317,3 +317,9 @@
 #box #banner .end .top2 ul li span:hover {
   color: red;
 }
+#box #banner .end .top3 {
+  position: relative;
+}
+#box #banner .end .top3 img {
+  position: absolute;
+}
