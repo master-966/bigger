@@ -16,3 +16,21 @@ oPlace_box.onclick=function(e){
         oSp.innerHTML=target.innerHTML
     }
 }
+
+var suo=document.getElementById('suo')
+var suo_arr=["抢手机新品","卷纸","新品电脑","5g手机"]
+var suo_num=1
+function pl(){
+    suo.placeholder=suo_arr[suo_num]
+    suo_num++
+    if(suo_num>suo_arr.length-1){
+        suo_num=0
+    }
+}
+var timer = setInterval(pl,3000)
+suo.onfocus=function(){
+    clearInterval(timer)
+}
+suo.onblur=function(){
+    timer = setInterval(pl,3000)
+}
